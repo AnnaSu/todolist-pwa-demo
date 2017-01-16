@@ -11,6 +11,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './assets'),
     filename: 'bundle.js',
+    publicPath: '/assets/'
   },
 
   module: {
@@ -29,12 +30,13 @@ module.exports = {
   plugins: [
     new SWPrecacheWebpackPlugin(
       {
-        cacheId: 'app-images',
+        cacheId: 'todo-list',
         filepath: './sw-generated-webpack.js',
         maximumFileSizeToCacheInBytes: 4194304,
+        staticFileGlobs: ['index.html', './src/main.css', './assets/images/*.png'],
         runtimeCaching: [{
-          handler: 'cacheFirst',
-          urlPattern: /[.]png$/,
+          handler: 'networkFirst',
+          urlPattern: /^http:\/\/localhost:3000/,
         }],
       }
     ),
