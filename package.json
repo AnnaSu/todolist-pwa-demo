@@ -1,7 +1,7 @@
 {
   "name": "todolist-pwa-demo",
   "version": "1.0.0",
-  "description": "Progressive Web App simple demo",
+  "description": "PWA To-Do List with Vanilla JS",
   "main": "sw.js",
   "scripts": {
     "start": "concurrently --kill-others 'http-server' 'json-server --watch db.json'"
