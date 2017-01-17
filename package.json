@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnnaSu/todolist-pwa-demo.git"
+    "url": "https://github.com/AnnaSu/todolist-pwa-demo.git"
   },
   "keywords": [
     "PWA"
