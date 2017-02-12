@@ -1,11 +1,11 @@
 const filesToCache = [
-    '/',
-    '/assets/images/btn_check.png',
-    '/assets/images/btn_del.png',
-    '/assets/images/ic_add.png',
-    '/assets/images/logo_todo.png',
-    '/src/main.css',
-    '/index.html'
+    './',
+    './assets/images/btn_check.png',
+    './assets/images/btn_del.png',
+    './assets/images/ic_add.png',
+    './assets/images/logo_todo.png',
+    './src/main.css',
+    './index.html'
 ];
 const cacheName = 'todolist-v2';
 const dataCacheName = 'todolist-v1-data';
