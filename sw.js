@@ -7,7 +7,7 @@ const filesToCache = [
     '/src/main.css',
     '/index.html'
 ];
-const cacheName = 'todolist-v1';
+const cacheName = 'todolist-v2';
 const dataCacheName = 'todolist-v1-data';
 
 // install
